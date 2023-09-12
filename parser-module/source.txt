@@ -1,0 +1,25 @@
+arr int array(5).
+int i.
+real r.
+char c.
+str string.
+hex h.
+yn y.
+ptr int p.
+
+def none msg[]
+<
+	i = 4.
+	send(8 mod 3).
+	send(7 / 2).
+	send (i - 2).
+	send(i x* 3).
+	this [i gt 2]
+	<
+		send(::true chicken nutget::).
+	>
+	that
+	<
+		send(::chicken nugets::).
+	>
+>
